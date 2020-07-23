@@ -1,0 +1,343 @@
+Cisco AnyConnect Secure Mobility Client Version 4.8.02045
+
+VPN Stats
+    Connection State:  Connected
+    Bytes Received:  79187
+    Bytes Sent:  619556
+    Compressed Bytes Received:  0
+    Compressed Bytes Sent:  0
+    Compressed Packets Received:  0
+    Compressed Packets Sent:  0
+    Control Bytes Received:  1487
+    Control Bytes Sent:  1567
+    Control Packets Received:  11
+    Control Packets Sent:  21
+    Encrypted Bytes Received:  104433
+    Encrypted Bytes Sent:  1003135
+    Encrypted Packets Received:  434
+    Encrypted Packets Sent:  6343
+    Inbound Bypassed Packets:  0
+    Inbound Discarded Packets:  0
+    Outbound Bypassed Packets:  0
+    Outbound Discarded Packets:  0
+    Packets Received:  423
+    Packets Sent:  6316
+    Session Disconnect:  None
+    Time Connected:  00:05:08
+    Management Connection State:  Disconnected (user tunnel active)
+
+Protocol Info
+    Active Protocol
+        Protocol Cipher:  DHE_RSA_AES256_SHA
+        Protocol Compression:  None
+        Protocol State:  Connected
+        Protocol:  DTLSv1.0
+    Inactive Protocol
+        Protocol Cipher:  DHE_RSA_AES256_SHA
+        Protocol Compression:  None
+        Protocol State:  Connected
+        Protocol:  TLSv1.0
+
+Tunnel Mode (IPv4): Tunnel All Traffic
+Tunnel Mode (IPv6): Drop All Traffic
+Dynamic Tunnel Exclusion: None
+Dynamic Tunnel Inclusion: None
+
+Routes
+    Secure Routes
+        0.0.0.0                                 0
+
+Firewall Rules
+
+OS Version
+    Mac OS X 10.15.6
+Interfaces
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8823<UP,BROADCAST,SMART,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 8c:85:90:85:e8:be 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (<unknown type>)
+	status: inactive
+p2p0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 2304
+	options=400<CHANNEL_IO>
+	ether 0e:85:90:85:e8:be 
+	media: autoselect
+	status: inactive
+awdl0: flags=8902<BROADCAST,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	options=400<CHANNEL_IO>
+	ether 6e:91:1b:cc:a9:5f 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: inactive
+llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 6e:91:1b:cc:a9:5f 
+	nd6 options=201<PERFORMNUD,DAD>
+en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:f2:c1:c8:64:00 
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:f2:c1:c8:64:04 
+	media: autoselect <full-duplex>
+	status: inactive
+en3: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:f2:c1:c8:64:01 
+	media: autoselect <full-duplex>
+	status: inactive
+en4: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+	options=460<TSO4,TSO6,CHANNEL_IO>
+	ether 82:f2:c1:c8:64:05 
+	media: autoselect <full-duplex>
+	status: inactive
+bridge0: flags=8822<BROADCAST,SMART,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 82:f2:c1:c8:64:00 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x0
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 9 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 10 priority 0 path cost 0
+	member: en3 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 11 priority 0 path cost 0
+	member: en4 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 12 priority 0 path cost 0
+	media: <unknown type>
+	status: inactive
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::a38a:9afa:78bf:6ca9%utun0 prefixlen 64 scopeid 0xf 
+	nd6 options=201<PERFORMNUD,DAD>
+utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::7f46:cbfe:89bf:e02f%utun1 prefixlen 64 scopeid 0x10 
+	nd6 options=201<PERFORMNUD,DAD>
+gpd0: flags=8862<BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1400
+	ether 02:50:41:00:01:01 
+	inet 10.30.91.220 netmask 0xffffffff broadcast 10.30.91.220
+utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::c8cc:7e9c:4f06:2dc8%utun2 prefixlen 64 scopeid 0x12 
+	nd6 options=201<PERFORMNUD,DAD>
+utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::f769:c31b:5d7c:966a%utun3 prefixlen 64 scopeid 0x13 
+	nd6 options=201<PERFORMNUD,DAD>
+utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::fc14:1b73:d393:a9ab%utun4 prefixlen 64 scopeid 0x14 
+	nd6 options=201<PERFORMNUD,DAD>
+utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::ce1b:ee4f:574a:23e6%utun5 prefixlen 64 scopeid 0x15 
+	nd6 options=201<PERFORMNUD,DAD>
+utun6: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::1bb0:3db4:f919:cbd%utun6 prefixlen 64 scopeid 0x16 
+	nd6 options=201<PERFORMNUD,DAD>
+utun7: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::3a88:39e8:10fc:a8eb%utun7 prefixlen 64 scopeid 0x17 
+	nd6 options=201<PERFORMNUD,DAD>
+utun8: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+	inet6 fe80::cfdf:39ab:c133:422f%utun8 prefixlen 64 scopeid 0x18 
+	nd6 options=201<PERFORMNUD,DAD>
+en11: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=40b<RXCSUM,TXCSUM,VLAN_HWTAGGING,CHANNEL_IO>
+	ether 64:4b:f0:18:8c:f5 
+	inet6 fe80::1813:7582:44c3:8209%en11 prefixlen 64 secured scopeid 0xd 
+	inet 192.168.1.19 netmask 0xffffff00 broadcast 192.168.1.255
+	inet6 2a01:cb04:b0b:9300:495:8ad3:ff8d:aa8d prefixlen 64 autoconf secured 
+	inet6 2a01:cb04:b0b:9300:d59e:8e6f:d43c:abb6 prefixlen 64 autoconf temporary 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (1000baseT <full-duplex,flow-control,energy-efficient-ethernet>)
+	status: active
+en5: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether ac:de:48:00:11:22 
+	inet6 fe80::aede:48ff:fe00:1122%en5 prefixlen 64 scopeid 0x4 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+utun9: flags=80d1<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST> mtu 1406
+	inet 10.251.128.201 --> 10.251.128.201 netmask 0xffffff00 
+	inet6 fe80::8e85:90ff:fe85:e8be%utun9 prefixlen 64 scopeid 0x1c 
+	inet6 fe80::21fe:68e8:271f:96b1%utun9 prefixlen 128 scopeid 0x1c 
+	nd6 options=201<PERFORMNUD,DAD>
+Routing tables
+
+Internet:
+Destination        Gateway            Flags        Netif Expire
+default            link#28            UCS          utun9       
+default            192.168.1.1        UGScI         en11       
+3.211.12.232       link#28            UHW3I        utun9     16
+10.30.91.220       link#28            UHW3I        utun9     17
+10.251.128/24      link#28            UCS          utun9       
+10.251.128.201/32  127.0.0.1          UGSc           lo0       
+10.251.128.255     link#28            UHWIi        utun9       
+10.251.169.42      link#28            UHWIi        utun9       
+17.242.89.246      link#28            UHWIi        utun9       
+17.242.176.15      link#28            UHWIi        utun9       
+17.242.176.19      link#28            UHWIi        utun9       
+17.242.176.71      link#28            UHW3I        utun9     16
+17.242.176.82      link#28            UHW3I        utun9     16
+17.242.176.84      link#28            UHWIi        utun9       
+17.242.176.138     link#28            UHWIi        utun9       
+17.242.176.142     link#28            UHWIi        utun9       
+17.242.176.144     link#28            UHWIi        utun9       
+17.242.176.146     link#28            UHWIi        utun9       
+17.242.176.149     link#28            UHW3I        utun9     16
+17.242.176.201     link#28            UHW3I        utun9     16
+17.242.177.89      link#28            UHWIi        utun9       
+17.242.177.90      link#28            UHW3I        utun9     16
+17.242.177.96      link#28            UHW3I        utun9     16
+17.248.144.8       link#28            UHW3I        utun9      4
+17.248.144.11      link#28            UHWIi        utun9       
+17.248.144.13      link#28            UHW3I        utun9      4
+17.248.144.16      link#28            UHWIi        utun9       
+17.248.144.41      link#28            UHWIi        utun9       
+17.248.144.74      link#28            UHW3I        utun9      4
+17.248.144.81      link#28            UHWIi        utun9       
+17.248.144.83      link#28            UHWIi        utun9       
+17.248.144.86      link#28            UHWIi        utun9       
+17.248.144.87      link#28            UHWIi        utun9       
+17.248.144.88      link#28            UHWIi        utun9       
+17.248.144.112     link#28            UHWIi        utun9       
+17.248.144.137     link#28            UHW3I        utun9      4
+17.248.144.139     link#28            UHW3I        utun9      4
+17.248.144.143     link#28            UHW3I        utun9      4
+17.248.144.147     link#28            UHWIi        utun9       
+17.248.144.173     link#28            UHWIi        utun9       
+17.248.144.174     link#28            UHWIi        utun9       
+17.248.144.180     link#28            UHWIi        utun9       
+17.248.144.186     link#28            UHWIi        utun9       
+17.248.144.200     link#28            UHWIi        utun9       
+17.248.144.207     link#28            UHWIi        utun9       
+17.248.144.213     link#28            UHWIi        utun9       
+17.253.113.201     link#28            UHWIi        utun9       
+17.253.113.202     link#28            UHWIi        utun9       
+18.202.11.190      link#28            UHWIi        utun9       
+23.57.80.127       link#28            UHWIi        utun9       
+34.241.2.176       link#28            UHWIi        utun9       
+35.169.36.136      link#28            UHW3I        utun9      6
+35.170.44.89       link#28            UHW3I        utun9      6
+40.101.92.194      link#28            UHWIi        utun9       
+40.101.93.226      link#28            UHWIi        utun9       
+40.101.93.242      link#28            UHWIi        utun9       
+52.18.22.247       link#28            UHWIi        utun9       
+52.44.19.106       link#28            UHWIi        utun9       
+52.51.130.76       link#28            UHWIi        utun9       
+52.97.168.210      link#28            UHWIi        utun9       
+52.97.173.2        link#28            UHWIi        utun9       
+52.97.173.18       link#28            UHWIi        utun9       
+52.210.105.177     link#28            UHWIi        utun9       
+54.171.29.225      link#28            UHWIi        utun9       
+54.175.52.184      link#28            UHW3I        utun9      6
+78.109.84.114      link#28            UHW3I        utun9     15
+104.80.21.42       link#28            UHWIi        utun9       
+104.80.21.99       link#28            UHWIi        utun9       
+127                127.0.0.1          UCS            lo0       
+127.0.0.1          127.0.0.1          UH             lo0       
+127.255.255.255    127.0.0.1          UHW3I          lo0      1
+172.217.18.228     link#28            UHWIi        utun9       
+192.30.68.80       link#28            UHWIi        utun9       
+192.168.1          link#28            UCS          utun9       
+192.168.1.1        34:49:5b:36:83:c0  UHLSr         en11       
+192.168.1.1/32     link#28            UCS          utun9       
+192.168.1.19/32    link#13            UCS           en11      !
+192.168.1.255      link#28            UHW3I        utun9     17
+193.55.90.20/32    192.168.1.1        UGSc          en11       
+216.239.38.21      link#28            UHWIi        utun9       
+224.0.0/4          link#28            UmCS         utun9       
+224.0.0/4          link#13            UmCSI         en11      !
+224.0.0.251        1:0:5e:0:0:fb      UHmLWI        en11       
+255.255.255.255/32 link#28            UCS          utun9       
+255.255.255.255/32 link#13            UCSI          en11      !
+
+Internet6:
+Destination                             Gateway                         Flags         Netif Expire
+default                                 link#28                         UGCS          utun9       
+default                                 fe80::3649:5bff:fe36:83c0%en11  UGcI           en11       
+default                                 fe80::%utun0                    UGcI          utun0       
+default                                 fe80::%utun1                    UGcI          utun1       
+default                                 fe80::%utun2                    UGcI          utun2       
+default                                 fe80::%utun3                    UGcI          utun3       
+default                                 fe80::%utun4                    UGcI          utun4       
+default                                 fe80::%utun5                    UGcI          utun5       
+default                                 fe80::%utun6                    UGcI          utun6       
+default                                 fe80::%utun7                    UGcI          utun7       
+default                                 fe80::%utun8                    UGcI          utun8       
+::1                                     ::1                             UHL             lo0       
+2603:1026:700:15::2                     link#28                         UGHWIi        utun9       
+2603:1026:700:28::2                     link#28                         UGHWIi        utun9       
+2603:1026:700:29::2                     link#28                         UGHWIi        utun9       
+2603:1026:700:2a::2                     link#28                         UGHWIi        utun9       
+2603:1026:700:2b::2                     link#28                         UGHWIi        utun9       
+2603:1026:c09:1::2                      link#28                         UGHWIi        utun9       
+2a01:b740:a41:100::7                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:100::f                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:101::7                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:101::8                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:101::d                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:102::9                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:102::d                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:103::4                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:103::c                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:104::4                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:104::6                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:104::f                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:104::10                   link#28                         UGHWIi        utun9       
+2a01:b740:a41:105::7                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:105::9                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:105::a                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:105::d                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:105::f                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:106::5                    link#28                         UGHW3I        utun9      !
+2a01:b740:a41:106::f                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:106::16                   link#28                         UGHW3I        utun9      !
+2a01:b740:a41:107::a                    link#28                         UGHWIi        utun9       
+2a01:b740:a41:107::14                   link#28                         UGHWIi        utun9       
+2a01:cb04:b0b:9300::/64                 link#28                         UCS           utun9       
+2a01:cb04:b0b:9300:495:8ad3:ff8d:aa8d   64:4b:f0:18:8c:f5               UHL             lo0       
+2a01:cb04:b0b:9300:d59e:8e6f:d43c:abb6  64:4b:f0:18:8c:f5               UHL             lo0       
+2a02:26f0:82:382::2a1                   link#28                         UGHWIi        utun9       
+2a02:26f0:82:384::2a1                   link#28                         UGHWIi        utun9       
+2a02:26f0:82:384::1759                  link#28                         UGHWIi        utun9       
+2a02:26f0:82:386::2a1                   link#28                         UGHWIi        utun9       
+2a02:26f0:82:391::2a1                   link#28                         UGHWIi        utun9       
+2a02:26f0:82:39e::2a1                   link#28                         UGHWIi        utun9       
+2a02:26f0:82:39f::1759                  link#28                         UGHWIi        utun9       
+fe80::%lo0/64                           fe80::1%lo0                     UcI             lo0       
+fe80::1%lo0                             link#1                          UHLI            lo0       
+fe80::%en5/64                           link#4                          UCI             en5       
+fe80::aede:48ff:fe00:1122%en5           ac:de:48:0:11:22                UHLI            lo0       
+fe80::aede:48ff:fe33:4455%en5           ac:de:48:33:44:55               UHLWIi          en5       
+fe80::1813:7582:44c3:8209%en11          64:4b:f0:18:8c:f5               UHLI            lo0       
+fe80::3649:5bff:fe36:83c0%en11          34:49:5b:36:83:c0               UHLIr          en11       
+fe80::a38a:9afa:78bf:6ca9%utun0         link#15                         UHLI            lo0       
+fe80::7f46:cbfe:89bf:e02f%utun1         link#16                         UHLI            lo0       
+fe80::c8cc:7e9c:4f06:2dc8%utun2         link#18                         UHLI            lo0       
+fe80::f769:c31b:5d7c:966a%utun3         link#19                         UHLI            lo0       
+fe80::fc14:1b73:d393:a9ab%utun4         link#20                         UHLI            lo0       
+fe80::ce1b:ee4f:574a:23e6%utun5         link#21                         UHLI            lo0       
+fe80::1bb0:3db4:f919:cbd%utun6          link#22                         UHLI            lo0       
+fe80::3a88:39e8:10fc:a8eb%utun7         link#23                         UHLI            lo0       
+fe80::cfdf:39ab:c133:422f%utun8         link#24                         UHLI            lo0       
+fe80::%utun9/64                         fe80::8e85:90ff:fe85:e8be%utun9 UcI           utun9       
+fe80::21fe:68e8:271f:96b1%utun9         link#28                         UHLI            lo0       
+fe80::8e85:90ff:fe85:e8be%utun9         link#28                         UHLI            lo0       
+ff01::%lo0/32                           ::1                             UmCI            lo0       
+ff01::%en5/32                           link#4                          UmCI            en5       
+ff01::%utun9/32                         fe80::8e85:90ff:fe85:e8be%utun9 UmCI          utun9       
+ff02::%lo0/32                           ::1                             UmCI            lo0       
+ff02::%en5/32                           link#4                          UmCI            en5       
+ff02::%en0/32                           link#5                          UmCI            en0       
+ff02::%awdl0/32                         link#7                          UmCI          awdl0       
+ff02::%llw0/32                          link#8                          UmCI           llw0       
+ff02::%en11/32                          link#13                         UmCI           en11       
